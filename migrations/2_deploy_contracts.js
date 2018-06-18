@@ -5,10 +5,12 @@ const yargs = require('yargs');
 const crypto = require('crypto');
 const fs = require('fs');
 let encryption = '';
-let config = {};
+let config = {
+  name: "DAPP: Decentralized Autonomous PP Party"
+};
 let name = ''; // empty name falls back to the contract default
-let deposit = 0; // 0 falls back to the contract default
-let limitOfParticipants = 0; // 0 falls back to the contract default
+let deposit = 0.02; // 0 falls back to the contract default
+let limitOfParticipants = 20; // 0 falls back to the contract default
 // eg: truffle migrate --config '{"name":"CodeUp No..", "encryption":"./tmp/test_public.key"}'
 if (yargs.argv.config) {
   config = JSON.parse(yargs.argv.config);

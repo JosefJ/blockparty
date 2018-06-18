@@ -54,7 +54,6 @@ module.exports = {
       gasPrice: 1000000000, // 1 gwei
       port: 8545,
       // provider:provider,
-      // from: "0x4b3A4F3F42BA61141A4F7101F77dC141AE15c59A",
       from: "0x4b3a4f3f42ba61141a4f7101f77dc141ae15c59a",
       network_id: 1
     }

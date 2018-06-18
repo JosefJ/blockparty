@@ -105,7 +105,7 @@ contract Conference is Destructible, GroupAdmin {
 
 	function withdraw() external onlyEnded{
 		require(payoutAmount > 0);
-		Participant participant = participants[msg.sender];
+		Participant storage participant = participants[msg.sender];
 		require(participant.addr == msg.sender);
 		require(cancelled || participant.attended);
 		require(participant.paid == false);

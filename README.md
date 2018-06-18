@@ -156,4 +156,3 @@ For `ropsten` and `mainnet` it now deploys via Infura. Pass the extra to set dep
 ```
 
 NOTE: `ropsten` and `mainnet` uses different gasPrice. Check `truffle.js` file and `scripts/util/set_gas.js` for the detail.
-
