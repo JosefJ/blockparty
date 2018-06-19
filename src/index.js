@@ -287,11 +287,11 @@ window.onload = function() {
       <div>
         <MuiThemeProvider muiTheme={getMuiTheme()}>
           <div>
-            <AppBar titleStyle={{textAlign:'center', fontSize:'xx-large', fontFamily:'Lobster'}} style={{backgroundColor:"#607D8B"}}
+            <AppBar titleStyle={{textAlign:'center', fontSize:'xx-large', fontFamily:'Lobster'}} style={{backgroundColor:"black"}}
               title={
-                <span>Block Party<span style={{fontSize:'small', fontFamily:'sans-serif'}}> - NO BLOCK NO PARTY -</span></span>
+                <span>Block Party<span style={{fontSize:'small', fontFamily:'sans-serif'}}> - NO DAPP NO UNCONF -</span></span>
               }
-              iconElementLeft={<Avatar src={require('./images/nightclub-white.png')} size={50} backgroundColor="rgb(96, 125, 139)" />}
+              iconElementLeft={<Avatar src={require('./images/pp-logo.png')} size={50} backgroundColor="black" style={{ borderRadius: 0 }} />}
               iconElementRight={
                 <span>
                   {networkLabel}
