@@ -3,7 +3,7 @@
 let Data = [
   {
     name: 'DAPP: UX & Adoption unconf',
-    address: '0xbfaef70ef31b6a795f21bff7b073a2f0d70b48c5',
+    address: '0xd42852d74a85e57f3bb13c19aecc586d5fe91673',
     date: 'Saturday, June 30, 2018 9 AM to 8 PM(UTC+2)',
     map_url: 'https://goo.gl/maps/wjvTccCe2a92',
     location_text: 'Paralelni Polis, Institute of Cryptoanarchy (2nd floor)',
